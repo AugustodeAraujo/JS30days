@@ -23,6 +23,22 @@
 
   <style>
 
+    :root {
+      --base: #ffc600;
+      --spacing: 10px;
+      --blur: 10px;
+    }
+
+    img {
+      padding: var(--spacing);
+      background: var(--base);
+      filter: var(--blur);
+    }
+
+    h1  {
+      color: var(--base);
+    }
+     
     /*
       misc styles, nothing to do with CSS variables
     */
@@ -45,8 +61,7 @@
     }
   </style>
 
-  <script>
-  </script>
+<script src="index.js" />
 
 </body>
 </html>
